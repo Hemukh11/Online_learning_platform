@@ -1,0 +1,17 @@
+{
+  "name": "olp-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "parcel public/index.html --port 3000",
+    "build": "parcel build public/index.html --dist-dir build"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "axios": "^1.4.0",
+    "@reduxjs/toolkit": "^1.9.5",
+    "react-redux": "^8.0.5",
+    "parcel": "^2.0.0"
+  }
+}
